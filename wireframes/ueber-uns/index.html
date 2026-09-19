@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wireframe Über uns v0.1 | Geipel</title>
+<link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../startseite/index.html">
+      <img src="../../assets/images/geipel-wappen.png" alt="Wappen Sicherheitsdienst & Detektei Geipel">
+      <span>Sicherheitsdienst &amp;<br>Detektei Geipel</span>
+    </a>
+    <button class="menu-button" type="button" aria-controls="nav" aria-expanded="false">Menü</button>
+    
+<nav id="nav" class="nav">
+  <a href="../startseite/index.html">Startseite</a>
+  <a href="../leistungen/index.html">Leistungen</a>
+  <a class="active" href="#">Über uns</a>
+  <a href="../karriere/index.html">Karriere</a>
+  <a href="../kontakt/index.html">Kontakt</a>
+  <a href="#">EN</a>
+</nav>
+
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">ÜBER UNS</p>
+        <h1>Sicherheit mit klaren Grundsätzen.</h1>
+        <p class="lead">
+          Der historische Willkommenstext liefert die Grundlage. Auf dieser Seite wird die Unternehmensvorstellung künftig ruhiger, klarer und besser lesbar aufgebaut.
+        </p>
+      </div>
+      <div class="media-placeholder">
+        <strong>Unternehmensbild / Team / Objekt</strong>
+        <span>später nach Freigabe</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">UNTERNEHMEN</p>
+        <h2>Wer wir sind</h2>
+        <p>
+          Hier wird der historische Inhalt über das Unternehmen in moderner Form zusammengeführt.
+          Keine neuen Behauptungen werden ergänzt, bevor sie von Geipel bestätigt wurden.
+        </p>
+      </div>
+      <div class="note-box">
+        <strong>Redaktioneller Ursprung</strong>
+        <p>Grundlage ist der ursprüngliche Willkommenstext der Altwebsite.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="wrap">
+      <p class="wire-label">GRUNDSÄTZE</p>
+      <h2>Was die Arbeit prägt</h2>
+      <div class="principles">
+        <div><h3>Diskretion</h3><p>Historisch belegter Unternehmensgrundsatz.</p></div>
+        <div><h3>Zuverlässigkeit</h3><p>Historisch belegter Unternehmensgrundsatz.</p></div>
+        <div><h3>Integrität</h3><p>Historisch belegter Unternehmensgrundsatz.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">ARBEITSWEISE</p>
+        <h2>Beratung und Sicherheit zusammendenken</h2>
+        <p>
+          Die alte Website betont individuelle Wünsche und beratende Begleitung. Dieser Gedanke bleibt erhalten,
+          wird später aber sprachlich kompakter formuliert.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="step"><strong>01 · Anfrage verstehen</strong><br><span class="small">Bedarf erfassen</span></div>
+        <div class="step"><strong>02 · Vorgehen abstimmen</strong><br><span class="small">Leistung und Rahmen klären</span></div>
+        <div class="step"><strong>03 · Umsetzung</strong><br><span class="small">fachlich passend zum Auftrag</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="wrap contact-box">
+      <div>
+        <p class="wire-label">KONTAKT</p>
+        <h2>Sie möchten mehr über das Unternehmen erfahren?</h2>
+      </div>
+      <a class="button dark" href="../kontakt/index.html">Kontakt aufnehmen</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="../../assets/images/geipel-wappen.png" alt="">
+      <strong>Sicherheitsdienst &amp; Detektei Geipel</strong>
+    </div>
+    <div>
+      <strong>Navigation</strong>
+      <a href="../leistungen/index.html">Leistungen</a>
+      <a href="../ueber-uns/index.html">Über uns</a>
+      <a href="../karriere/index.html">Karriere</a>
+      <a href="../kontakt/index.html">Kontakt</a>
+    </div>
+    <div>
+      <strong>Rechtliches</strong>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+    </div>
+    <div>
+      <strong>Sprache</strong>
+      <a href="#">Deutsch</a>
+      <a href="#">English</a>
+    </div>
+  </div>
+</footer>
+<script>
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('.nav');
+button?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(open));
+});
+</script>
+
+</body>
+</html>

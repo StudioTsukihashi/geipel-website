@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wireframe Kontakt v0.1 | Geipel</title>
+<link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../startseite/index.html">
+      <img src="../../assets/images/geipel-wappen.png" alt="Wappen Sicherheitsdienst & Detektei Geipel">
+      <span>Sicherheitsdienst &amp;<br>Detektei Geipel</span>
+    </a>
+    <button class="menu-button" type="button" aria-controls="nav" aria-expanded="false">Menü</button>
+    
+<nav id="nav" class="nav">
+  <a href="../startseite/index.html">Startseite</a>
+  <a href="../leistungen/index.html">Leistungen</a>
+  <a href="../ueber-uns/index.html">Über uns</a>
+  <a href="../karriere/index.html">Karriere</a>
+  <a class="active" href="#">Kontakt</a>
+  <a href="#">EN</a>
+</nav>
+
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="wire-label">KONTAKT</p>
+      <h1>Direkt erreichbar.</h1>
+      <p class="lead">
+        Telefonnummer, E-Mail und Anschrift werden hier klar und ohne Umwege dargestellt. Alle Daten werden vor Veröffentlichung noch einmal bestätigt.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">KONTAKTDATEN</p>
+        <div class="contact-data">
+          <div><strong>Telefon</strong><br><span class="small">wird vor Veröffentlichung bestätigt</span></div>
+          <div><strong>E-Mail</strong><br><span class="small">wird vor Veröffentlichung bestätigt</span></div>
+          <div><strong>Anschrift</strong><br><span class="small">wird vor Veröffentlichung bestätigt</span></div>
+        </div>
+      </div>
+
+      <div>
+        <p class="wire-label">KONTAKTFORMULAR</p>
+        <form class="form-grid" action="#" method="post">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" placeholder="Name">
+          </label>
+          <label class="field">
+            <span>E-Mail</span>
+            <input type="email" placeholder="E-Mail">
+          </label>
+          <label class="field full">
+            <span>Anliegen</span>
+            <select>
+              <option>Bitte auswählen</option>
+              <option>Detektei</option>
+              <option>Veranstaltungsschutz</option>
+              <option>Objektschutz</option>
+              <option>Personenschutz</option>
+              <option>Karriere</option>
+              <option>Sonstiges</option>
+            </select>
+          </label>
+          <label class="field full">
+            <span>Nachricht</span>
+            <textarea placeholder="Ihre Nachricht"></textarea>
+          </label>
+          <div class="field full">
+            <span class="small">Datenschutz- und technische Formularlogik werden erst später umgesetzt.</span>
+            <button class="button dark" type="button">Nachricht senden</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">ANFAHRT</p>
+        <h2>Standort übersichtlich darstellen</h2>
+        <p>
+          Eine Kartenintegration ist optional. Wegen Datenschutz und externer Dienste wird erst später entschieden,
+          ob eine eingebettete Karte oder nur ein externer Routenlink verwendet wird.
+        </p>
+      </div>
+      <div class="media-placeholder">
+        <strong>Karten-/Anfahrtsfläche</strong>
+        <span>optional</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap note-box">
+      <strong>Wichtige Strukturentscheidung</strong>
+      <p>
+        Das Kontaktformular ist im Wireframe vorgesehen, aber technisch noch nicht gesetzt. Wenn Geipel keine Formulardaten
+        verarbeiten möchte, kann die Seite ebenso nur Telefon, E-Mail und Anschrift anbieten.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="../../assets/images/geipel-wappen.png" alt="">
+      <strong>Sicherheitsdienst &amp; Detektei Geipel</strong>
+    </div>
+    <div>
+      <strong>Navigation</strong>
+      <a href="../leistungen/index.html">Leistungen</a>
+      <a href="../ueber-uns/index.html">Über uns</a>
+      <a href="../karriere/index.html">Karriere</a>
+      <a href="../kontakt/index.html">Kontakt</a>
+    </div>
+    <div>
+      <strong>Rechtliches</strong>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+    </div>
+    <div>
+      <strong>Sprache</strong>
+      <a href="#">Deutsch</a>
+      <a href="#">English</a>
+    </div>
+  </div>
+</footer>
+<script>
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('.nav');
+button?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(open));
+});
+</script>
+
+</body>
+</html>

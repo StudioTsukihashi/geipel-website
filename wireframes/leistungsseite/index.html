@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe Leistungsseite v0.1 | Geipel</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../startseite/index.html">
+      <img src="../../assets/images/geipel-wappen.png" alt="Wappen Sicherheitsdienst & Detektei Geipel">
+      <span>Sicherheitsdienst &amp;<br>Detektei Geipel</span>
+    </a>
+    <button class="menu-button" type="button" aria-controls="nav" aria-expanded="false">Menü</button>
+    <nav id="nav" class="nav">
+      <a href="../startseite/index.html">Startseite</a>
+      <a href="../leistungen/index.html" class="active">Leistungen</a>
+      <a href="#">Über uns</a>
+      <a href="#">Karriere</a>
+      <a href="#">Kontakt</a>
+      <a href="#">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="breadcrumb"><a href="../leistungen/index.html">Leistungen</a> / Detektei</p>
+        <p class="wire-label">MUSTER-LEISTUNGSSEITE</p>
+        <h1>Warenhausdetektiv / Doorman</h1>
+        <p class="lead">
+          Der historische Originaltext bleibt die inhaltliche Grundlage, wird aber später sprachlich klarer und moderner aufbereitet.
+        </p>
+        <a class="button dark" href="#kontakt">Anfrage stellen</a>
+      </div>
+      <div class="media-placeholder">
+        <strong>Bildfläche</strong>
+        <span>später: passendes Firmen-/Leistungsmotiv</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap content-grid">
+      <aside class="side-nav">
+        <strong>Detektei</strong>
+        <a class="active" href="#">Warenhausdetektiv / Doorman</a>
+        <a href="#">Observation &amp; Beobachtung</a>
+        <a href="../leistungen/index.html">← Alle Leistungen</a>
+      </aside>
+
+      <article class="content">
+        <p class="wire-label">LEISTUNGSBESCHREIBUNG</p>
+        <h2>Historischer Inhalt, neu gegliedert</h2>
+
+        <div class="text-block">
+          <h3>Ausgangslage</h3>
+          <p>
+            Hier wird später der erste Teil des historischen Originaltextes redaktionell überarbeitet.
+            Inhaltliche Aussagen werden nicht ohne Freigabe erweitert.
+          </p>
+        </div>
+
+        <div class="text-block">
+          <h3>Aufgabe des Detektivs</h3>
+          <p>
+            Die alte Website beschreibt diskretes und unauffälliges Vorgehen sowie das Eingreifen bei konkretem Verdacht.
+          </p>
+        </div>
+
+        <div class="text-block">
+          <h3>Doorman</h3>
+          <p>
+            Der historische Text nennt die sichtbare Präsenz eines Doorman als ergänzende Abschreckungsmaßnahme.
+          </p>
+        </div>
+
+        <div class="note-box">
+          <strong>Redaktionshinweis</strong>
+          <p>
+            Begriffe, rechtliche Aussagen und Formulierungen werden vor Veröffentlichung fachlich und sprachlich geprüft.
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="wrap">
+      <p class="wire-label">WEITERE LEISTUNGEN</p>
+      <h2>Passende weitere Bereiche</h2>
+      <div class="related-grid">
+        <a href="#">Observation &amp; Beobachtung</a>
+        <a href="#">Veranstaltungsschutz / Einlasskontrolle</a>
+        <a href="#">Objektschutz / Revierfahrten</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="section contact">
+    <div class="wrap contact-box">
+      <div>
+        <p class="wire-label">KONTAKT</p>
+        <h2>Sie möchten diese Leistung anfragen?</h2>
+        <p>Kurzer, klarer Übergang zur Kontaktaufnahme.</p>
+      </div>
+      <a class="button dark" href="#">Kontakt aufnehmen</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="../../assets/images/geipel-wappen.png" alt="">
+      <strong>Sicherheitsdienst &amp; Detektei Geipel</strong>
+    </div>
+    <div>
+      <strong>Navigation</strong>
+      <a href="../leistungen/index.html">Leistungen</a>
+      <a href="#">Über uns</a>
+      <a href="#">Karriere</a>
+      <a href="#">Kontakt</a>
+    </div>
+    <div>
+      <strong>Rechtliches</strong>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('.nav');
+button?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(open));
+});
+</script>
+</body>
+</html>

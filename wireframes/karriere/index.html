@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wireframe Karriere v0.1 | Geipel</title>
+<link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../startseite/index.html">
+      <img src="../../assets/images/geipel-wappen.png" alt="Wappen Sicherheitsdienst & Detektei Geipel">
+      <span>Sicherheitsdienst &amp;<br>Detektei Geipel</span>
+    </a>
+    <button class="menu-button" type="button" aria-controls="nav" aria-expanded="false">Menü</button>
+    
+<nav id="nav" class="nav">
+  <a href="../startseite/index.html">Startseite</a>
+  <a href="../leistungen/index.html">Leistungen</a>
+  <a href="../ueber-uns/index.html">Über uns</a>
+  <a class="active" href="#">Karriere</a>
+  <a href="../kontakt/index.html">Kontakt</a>
+  <a href="#">EN</a>
+</nav>
+
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">KARRIERE</p>
+        <h1>Arbeiten im Sicherheitsdienst</h1>
+        <p class="lead">
+          Die Altwebsite enthielt bereits eine Mitarbeitersuche in Teilzeit und Vollzeit. Der Relaunch macht diesen Inhalt deutlich besser auffindbar.
+        </p>
+        <a class="button dark" href="#bewerben">Interesse bekunden</a>
+      </div>
+      <div class="media-placeholder">
+        <strong>Mitarbeiter-/Teamfoto</strong>
+        <span>nur mit späterer Freigabe</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="wire-label">EINSTIEG</p>
+      <h2>Was hier später stehen kann</h2>
+      <div class="grid-3">
+        <article class="card">
+          <h3>Teilzeit</h3>
+          <p>Historisch ausdrücklich genannt. Aktuelle Verfügbarkeit muss bestätigt werden.</p>
+        </article>
+        <article class="card">
+          <h3>Vollzeit</h3>
+          <p>Historisch ausdrücklich genannt. Aktuelle Verfügbarkeit muss bestätigt werden.</p>
+        </article>
+        <article class="card">
+          <h3>Anforderungen</h3>
+          <p>Konkrete Qualifikationen und Voraussetzungen werden erst nach Abstimmung ergänzt.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="wrap grid-2">
+      <div>
+        <p class="wire-label">BEWERBUNG</p>
+        <h2>Einfacher Kontakt statt Bewerbungsportal</h2>
+        <p>
+          Für den aktuellen Relaunch reicht eine klare Kontaktmöglichkeit. Ein Bewerbermanagementsystem ist nicht Bestandteil des Projekts.
+        </p>
+      </div>
+      <div class="note-box">
+        <strong>Später möglich</strong>
+        <ul>
+          <li>offene Stellen</li>
+          <li>Anforderungsprofile</li>
+          <li>PDF-Upload oder Bewerbungsformular</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="bewerben" class="section">
+    <div class="wrap contact-box">
+      <div>
+        <p class="wire-label">INTERESSE</p>
+        <h2>Sie interessieren sich für eine Tätigkeit bei Geipel?</h2>
+        <p>Übergang zur Kontaktseite oder zu einer späteren Bewerbungsadresse.</p>
+      </div>
+      <a class="button dark" href="../kontakt/index.html">Kontakt aufnehmen</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="../../assets/images/geipel-wappen.png" alt="">
+      <strong>Sicherheitsdienst &amp; Detektei Geipel</strong>
+    </div>
+    <div>
+      <strong>Navigation</strong>
+      <a href="../leistungen/index.html">Leistungen</a>
+      <a href="../ueber-uns/index.html">Über uns</a>
+      <a href="../karriere/index.html">Karriere</a>
+      <a href="../kontakt/index.html">Kontakt</a>
+    </div>
+    <div>
+      <strong>Rechtliches</strong>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+    </div>
+    <div>
+      <strong>Sprache</strong>
+      <a href="#">Deutsch</a>
+      <a href="#">English</a>
+    </div>
+  </div>
+</footer>
+<script>
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('.nav');
+button?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(open));
+});
+</script>
+
+</body>
+</html>
