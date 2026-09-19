@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0-pages-preview – 19.09.2026
+- GitHub-Pages-Preview vorbereitet
+- Root `index.html` auf aktuellen Phase-3-Startseitenentwurf umgestellt
+- `.nojekyll` ergänzt
+- Deployment-Anleitung dokumentiert
+- Preview bleibt von der späteren Firmen-Domain getrennt
+
 ## v1.0-design-preview – 19.09.2026
 - Designsystem v0.1 auf Startseiten-Wireframe angewendet
 - erster vollständiger visueller Homepage-Entwurf erstellt

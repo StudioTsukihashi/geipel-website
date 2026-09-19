@@ -53,3 +53,11 @@ Status: OFFEN
 
 ## Phase 7 — Veröffentlichung
 Status: OFFEN
+
+
+## Preview Deployment
+Status: 🟢 GitHub-Pages Preview vorbereitet
+
+- Root-Weiterleitung auf aktuellen Startseitenentwurf
+- `.nojekyll` angelegt
+- Firmen-Domain bleibt unberührt
