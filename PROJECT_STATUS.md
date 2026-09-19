@@ -3,37 +3,31 @@
 ## Phase 1 — Bestandsaufnahme
 Status: ABGESCHLOSSEN / AUSREICHEND GESICHERT
 
-### Gesichert
-- zentrale Originaltexte
-- historische Navigation
-- Screenshots der Altwebsite
-- Kontakt- und Rechtsseiten als Archivbestand
-- Original-Wappen
-- Quellenregister und Rekonstruktionsmatrix
-
-### Später ergänzbar
-- weitere historische Fotos/Medien
-- technische Altdateien
-- eventuell fehlende Detektei-Einleitung
-- weitere Original-Assets
-
 ---
 
 ## Phase 2 — Sitemap & Informationsarchitektur
 Status: IN ARBEIT
 
-### Erstfassung erstellt
-- Sitemap DE
-- Sitemap EN
-- Desktop-/Mobilnavigation
+### Abgeschlossen
+- Sitemap DE/EN v0.1
+- Informationsarchitektur v0.1
 - Content Mapping Alt → Neu
 - URL-Prinzip
+- Sprachstruktur
 - Footer-Struktur
-- Sprachumschaltung
-- Strukturentscheidungen
+- Original-Wappen eingebunden
+- Startseiten-Wireframe v0.1
+- klickbarer HTML-Wireframe Desktop + Smartphone
 
 ### Nächster Schritt
-Sitemap und Hauptnavigation fachlich freigeben, danach Wireframe der Startseite erstellen.
+Startseiten-Wireframe prüfen und freigeben bzw. Änderungswünsche sammeln.
+
+Danach:
+1. Wireframes der Leistungsübersicht
+2. Wireframe einer einzelnen Leistungsseite
+3. Wireframe Über uns
+4. Wireframe Karriere
+5. Wireframe Kontakt
 
 ---
 

@@ -23,3 +23,21 @@
 - Kartenintegration
 - Social-Media-Integration
 - finales Farbsystem und Typografie
+
+---
+
+## Wireframe-Entscheidungen Startseite v0.1
+
+- Sticky Header
+- Wappen links im Header
+- primäre Hauptnavigation horizontal auf Desktop
+- mobiles Klappmenü
+- Hero mit zwei klaren CTAs
+- keine lange Textwand im Hero
+- Leistungsübersicht direkt nach Hero
+- Detektei bleibt als Obergruppe sichtbar
+- Unternehmensgrundsätze erhalten eigene Darstellung
+- Karriere wird als eigener Startseitenabschnitt sichtbar
+- Kontakt-CTA unmittelbar vor Footer
+- rechtliche Links ausschließlich im Footer
+
