@@ -1,0 +1,36 @@
+:root {
+  /* Brand */
+  --geipel-blue-600: #035CDD;
+  --geipel-blue-700: #0349AE;
+  --geipel-yellow-400: #FBFA00;
+
+  /* Neutrals */
+  --geipel-ink-950: #0F141A;
+  --geipel-ink-900: #151C24;
+  --geipel-ink-800: #1D2732;
+  --geipel-slate-700: #3D4957;
+  --geipel-slate-500: #667281;
+  --geipel-slate-200: #DDE2E8;
+  --geipel-slate-100: #EEF1F4;
+  --geipel-slate-050: #F7F8FA;
+  --geipel-white: #FFFFFF;
+
+  /* UI */
+  --geipel-radius-sm: 7px;
+  --geipel-radius-md: 12px;
+  --geipel-radius-lg: 18px;
+
+  /* Spacing */
+  --geipel-space-1: 8px;
+  --geipel-space-2: 16px;
+  --geipel-space-3: 24px;
+  --geipel-space-4: 32px;
+  --geipel-space-5: 48px;
+  --geipel-space-6: 64px;
+  --geipel-space-7: 80px;
+  --geipel-space-8: 96px;
+
+  /* Typography */
+  --geipel-font-sans: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, Arial, sans-serif;
+}
