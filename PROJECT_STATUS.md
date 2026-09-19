@@ -1,38 +1,41 @@
 # Projektstatus
 
 ## Phase 1 — Bestandsaufnahme
-Status: ABGESCHLOSSEN / AUSREICHEND GESICHERT
+Status: ✅ ABGESCHLOSSEN / AUSREICHEND GESICHERT
 
 ---
 
 ## Phase 2 — Sitemap & Informationsarchitektur
-Status: IN ARBEIT
+Status: 🟦 INTERN FREIGEGEBEN
 
-### Abgeschlossen
-- Sitemap DE/EN v0.1
-- Informationsarchitektur v0.1
-- Content Mapping Alt → Neu
-- URL-Prinzip
-- Sprachstruktur
+### Freigegeben
+- Sitemap DE/EN
+- Hauptnavigation
+- Leistungsstruktur
+- Startseiten-Wireframe
+- Leistungsübersicht
+- Muster-Leistungsseite
+- Über uns
+- Karriere
+- Kontakt-Grundstruktur
 - Footer-Struktur
-- Original-Wappen eingebunden
-- Startseiten-Wireframe v0.1
-- klickbarer HTML-Wireframe Desktop + Smartphone
+- externe Links
 
-### Nächster Schritt
-Startseiten-Wireframe prüfen und freigeben bzw. Änderungswünsche sammeln.
+### Bestätigte externe Footer-Links
+- Festhalle Plauen
+- Wir auf Facebook
+- Duo-Yang Martial Arts GYM
 
-Danach:
-1. Wireframes der Leistungsübersicht
-2. Wireframe einer einzelnen Leistungsseite
-3. Wireframe Über uns
-4. Wireframe Karriere
-5. Wireframe Kontakt
+### Noch offen
+- Kontaktformular ja/nein
+- Entscheidung nach Rücksprache am Sonntag
+
+Der offene Formularpunkt blockiert Phase 3 nicht.
 
 ---
 
 ## Phase 3 — Designsystem
-Status: OFFEN
+Status: 🟢 BEREIT ZUM START
 
 ## Phase 4 — Deutsche Master-Version
 Status: OFFEN

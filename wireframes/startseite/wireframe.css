@@ -201,3 +201,6 @@ h3 { margin-top: 0; }
   .footer-grid { grid-template-columns: 1fr; }
   .principles div { flex-direction: column; gap: 5px; }
 }
+
+.external-links{display:flex;flex-direction:column;gap:8px}
+.external-links a{color:#ddd;text-decoration:none}

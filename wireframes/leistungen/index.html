@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframe Leistungen v0.1 | Geipel</title>
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="../startseite/index.html">
+      <img src="../../assets/images/geipel-wappen.png" alt="Wappen Sicherheitsdienst & Detektei Geipel">
+      <span>Sicherheitsdienst &amp;<br>Detektei Geipel</span>
+    </a>
+    <button class="menu-button" type="button" aria-controls="nav" aria-expanded="false">Menü</button>
+    <nav id="nav" class="nav">
+      <a href="../startseite/index.html">Startseite</a>
+      <a href="#" class="active">Leistungen</a>
+      <a href="#">Über uns</a>
+      <a href="#">Karriere</a>
+      <a href="#">Kontakt</a>
+      <a href="#">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="wire-label">LEISTUNGSÜBERSICHT</p>
+      <h1>Leistungen im Überblick</h1>
+      <p class="lead">
+        Die historisch belegten Leistungsbereiche werden klar gegliedert und jeweils auf einer eigenen Seite vertieft.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="service-grid">
+        <article class="service-card large">
+          <span class="kicker">Detektei</span>
+          <h2>Detektei</h2>
+          <p>
+            Oberbereich für die beiden historisch belegten Teilbereiche Warenhausdetektiv / Doorman
+            sowie Observation &amp; Beobachtung.
+          </p>
+          <div class="subservices">
+            <a href="../leistungsseite/index.html">Warenhausdetektiv / Doorman →</a>
+            <a href="#">Observation &amp; Beobachtung →</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <span class="kicker">Sicherheitsdienst</span>
+          <h2>Veranstaltungsschutz / Einlasskontrolle</h2>
+          <p>Eigene Leistungsseite mit Originaltext als redaktioneller Grundlage.</p>
+          <a href="#">Leistung ansehen →</a>
+        </article>
+
+        <article class="service-card">
+          <span class="kicker">Sicherheitsdienst</span>
+          <h2>Objektschutz / Revierfahrten</h2>
+          <p>Eigene Leistungsseite mit klarer Trennung von Beschreibung und Kontakt.</p>
+          <a href="#">Leistung ansehen →</a>
+        </article>
+
+        <article class="service-card">
+          <span class="kicker">Sicherheitsdienst</span>
+          <h2>Personenschutz</h2>
+          <p>Historisch belegter Leistungsbereich, später sprachlich modernisiert.</p>
+          <a href="#">Leistung ansehen →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section muted">
+    <div class="wrap two-col">
+      <div>
+        <p class="wire-label">ORIENTIERUNG</p>
+        <h2>Welche Leistung passt zu Ihrer Anfrage?</h2>
+        <p>
+          Dieser Bereich kann später kurz erklären, welcher Leistungsbereich für welche Situation geeignet ist,
+          ohne die Detailseiten zu ersetzen.
+        </p>
+      </div>
+      <div class="note-box">
+        <strong>Phase 2</strong>
+        <p>Noch keine endgültigen Verkaufstexte oder Leistungsversprechen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <div class="wrap contact-box">
+      <div>
+        <p class="wire-label">KONTAKT</p>
+        <h2>Frage zu einer Leistung?</h2>
+        <p>Direkter Übergang zum Kontaktbereich.</p>
+      </div>
+      <a class="button dark" href="#">Kontakt aufnehmen</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img src="../../assets/images/geipel-wappen.png" alt="">
+      <strong>Sicherheitsdienst &amp; Detektei Geipel</strong>
+    </div>
+    <div>
+      <strong>Leistungen</strong>
+      <a href="#">Detektei</a>
+      <a href="#">Veranstaltungsschutz</a>
+      <a href="#">Objektschutz</a>
+      <a href="#">Personenschutz</a>
+    </div>
+    <div>
+      <strong>Unternehmen</strong>
+      <a href="#">Über uns</a>
+      <a href="#">Karriere</a>
+      <a href="#">Kontakt</a>
+    </div>
+    <div>
+      <strong>Rechtliches</strong>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+    </div>
+  
+    <div class="external-links">
+      <strong>Externe Links</strong>
+      <a href="http://www.festhalle-plauen.de/" target="_blank" rel="noopener noreferrer">Festhalle Plauen</a>
+      <a href="https://www.facebook.com/Sicherheitsdienst-Detektei-Geipel-214832171902457/" target="_blank" rel="noopener noreferrer">Wir auf Facebook</a>
+      <a href="http://www.duo-yang.de/" target="_blank" rel="noopener noreferrer">Duo-Yang Martial Arts GYM</a>
+    </div>
+</div>
+</footer>
+
+<script>
+const button = document.querySelector('.menu-button');
+const nav = document.querySelector('.nav');
+button?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(open));
+});
+</script>
+</body>
+</html>

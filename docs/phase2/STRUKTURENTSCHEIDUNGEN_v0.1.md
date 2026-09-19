@@ -41,3 +41,21 @@
 - Kontakt-CTA unmittelbar vor Footer
 - rechtliche Links ausschließlich im Footer
 
+---
+
+## Interne Freigabe 19.09.2026
+
+### Bestätigt
+
+- Seitenstruktur intern freigegeben
+- Über uns bleibt eigene Seite
+- Karriere bleibt eigene Seite
+- externe Footer-Links bestätigt:
+  - Festhalle Plauen
+  - Wir auf Facebook
+  - Duo-Yang Martial Arts GYM
+
+### Offen
+
+- Kontaktformular: Entscheidung nach Rücksprache am Sonntag
+
