@@ -1,5 +1,31 @@
 # Changelog
 
+## v1.0-design-preview – 19.09.2026
+- Designsystem v0.1 auf Startseiten-Wireframe angewendet
+- erster vollständiger visueller Homepage-Entwurf erstellt
+- responsive Header-/Mobilnavigation umgesetzt
+- markenbasierter Hero ohne Stockfoto erstellt
+- Original-Wappen als visuellen Fokus integriert
+- Leistungskarten im finalnahen Stil aufgebaut
+- Detektei-Hervorhebungsbereich gestaltet
+- Unternehmensgrundsätze visuell umgesetzt
+- Karriere- und Kontaktbereiche gestaltet
+- bestätigte externe Links im Footer integriert
+- Arbeitskopie für spätere Phase-4-Texte getrennt dokumentiert
+
+## v0.9 – 19.09.2026
+- Phase 3 gestartet
+- Designsystem v0.1 erstellt
+- Markenfarben aus dem Original-Wappen abgeleitet
+- Geipel Blue #035CDD und Geipel Yellow #FBFA00 als Brand Tokens definiert
+- professionelle Dunkel-/Neutralpalette ergänzt
+- Typografiehierarchie definiert
+- Buttons, Karten, Formularfelder und Header als Komponenten definiert
+- 8-Pixel-Abstandssystem eingeführt
+- Accessibility-/Fokusgrundlagen definiert
+- klickbare Designsystem-Vorschau erstellt
+- design-tokens.css angelegt
+
 ## v0.8 – 19.09.2026
 - Phase 2 intern freigegeben
 - externe Footer-Links bestätigt und in Wireframes ergänzt
